@@ -1,16 +1,23 @@
 import {
   mobile,
+  accenture,
   backend,
   creator,
   web,
   javascript,
   typescript,
   html,
+  aws,
   css,
+  linux,
+  python,
   reactjs,
   redux,
+  SHL,
+  ispaze,
   tailwind,
   nodejs,
+  MYSQL,
   mongodb,
   git,
   figma,
@@ -20,6 +27,8 @@ import {
   tesla,
   shopify,
   carrent,
+  php,
+  go,
   jobit,
   tripguide,
   threejs,
@@ -42,31 +51,35 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Gen AI Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "API Integration",
     icon: creator,
-  },
+  }
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "php",
+    icon: php,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "GO",
+    icon: go,
+  },  
+  {
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "JavaScript",
@@ -81,10 +94,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -97,74 +106,59 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: MYSQL,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "linux",
+    icon: linux,
   },
   {
-    name: "docker",
-    icon: docker,
-  },
+    name: "python",
+    icon: python,
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Associate Software Engineer",
+    company_name: "SHL",
+    icon: SHL,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Working as a full-stack developer at SHL, primarily focusing on backend development using Go and PHP, along with building dynamic UIs in React.",
+      "Hands-on experience with AWS services like EC2, Elastic, and S3 for application deployment and infrastructure management.",
+      "Actively involved in designing scalable APIs, system architecture, and ensuring performance optimization across the stack. Also work extensively with relational and NoSQL databases for data modeling, query optimization, and performance tuning.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Associate Software Engineer",
+    company_name: "Accenture",
+    icon: accenture,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gained hands-on experience with enterprise-grade backend technologies and data-centric application development in a corporate setting.",
+      "Worked on SAP HANA for handling high-performance data processing and integration with backend services.Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed a strong understanding of large-scale system architecture, database operations, and best practices for clean, efficient backend code.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Developer Intern",
+    company_name: "ISpaze Pvt Ltd",
+    icon: ispaze,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2024 - Jul 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed responsive user interfaces using React.js and Tailwind CSS.",
+      "Collaborated with the backend team to integrate RESTful APIs and handle dynamic data rendering.",
+      "Contributed to UI bug fixes, user experience improvements, and cross-browser compatibility.",
     ],
   },
 ];

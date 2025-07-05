@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,15 +20,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import php from "./tech/php.png";
+import go from "./tech/go.png";
+import aws from "./tech/aws.jpeg";
+import Cpp from "./tech/C++.png";
+import MYSQL from "./tech/MySQL.jpeg";
+import java from "./tech/java.jpeg";
+import linux from "./tech/linux.png";
+import python from "./tech/python.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import accenture from "./company/accenture.png";
+import ispaze from "./company/ispaze.png";
+import SHL from "./company/SHL.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import resume from "./UtkarshGoyal_Resume.pdf";
 
 export {
   logo,
@@ -49,14 +63,26 @@ export {
   nodejs,
   reactjs,
   redux,
+  go,
+  aws,
+  Cpp,
+  MYSQL,
+  java,
+  linux,
+  python,
   tailwind,
   typescript,
   threejs,
   meta,
+  php,
   shopify,
   starbucks,
   tesla,
   carrent,
   jobit,
   tripguide,
+  accenture,
+  ispaze,
+  SHL,
+  resume
 };
